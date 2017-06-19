@@ -1,0 +1,18 @@
+﻿{
+    "gridEditors": [
+      {
+        "name": "Table",
+        "alias": "simpleTable",
+        "view": "/app_plugins/simpletable/simpletable.html",
+        "render": "/app_plugins/simpletable/simpletable.cshtml",
+        "icon": "icon-code",
+        "config": {
+          "color": "red",
+          "text-align": "right"
+        }
+      }
+    ],
+  javascript: [
+    "/app_plugins/simpletable/simpletable.controller.js"
+  ]
+}
